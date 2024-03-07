@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "html": "copyfiles --up 1 src/public/*.html dist",
-    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "start": "node dist/index.js",
     "dev": "tsc && node dist/index",
     "lint": "eslint --ignore-path .gitignore",
     "tsc": "tsc --watch",
