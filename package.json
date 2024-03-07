@@ -6,7 +6,6 @@
   "scripts": {
     "test": "jest",
     "html": "copyfiles --up 1 src/public/*.html dist",
-    "build": "tsc && npm run html && nodemon dist/index",
     "start": "tsc && node dist/index.js",
     "dev": "tsc && node dist/index",
     "lint": "eslint --ignore-path .gitignore",
